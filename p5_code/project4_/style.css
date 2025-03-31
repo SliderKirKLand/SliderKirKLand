@@ -1,0 +1,26 @@
+
+.bg {
+   display: flex; 
+   justify-content: center; 
+   align-items: center; 
+   position: absolute; 
+   top: 50%; 
+   left: 50%; 
+   transform: translate(-50%, -50%); 
+   width: 600px; 
+   height: 600px; 
+   border-radius: 20px; /* Optional rounded corners */
+   background-image: url('image/background.jpg');
+   z-index: 1;
+
+ }
+ 
+ /* Style for the child element (iPod) */
+ .ipod {
+   margin-top: 52%;
+   margin-left: 30%;
+   width: 500px; 
+   height: 800px; 
+   background-repeat: no-repeat; /* Prevents the image from repeating */
+   background-image: url('image/ipod.png');
+ }
